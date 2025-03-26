@@ -4,8 +4,8 @@ function Details({ videoDetails }) {
   
   if (!videoDetails) {
     return (
-      <div className="bg-gray-900 p-8 rounded-lg shadow-lg text-white">
-        <h1 className="text-3xl font-bold text-center mb-6">No video details found.</h1>
+      <div className="  p-8 rounded-lg shadow-lg text-white">
+        <h1 className="text-3xl font-bold text-center mb-6 mt-10">No video details found.</h1>
       </div>
     );
   }
