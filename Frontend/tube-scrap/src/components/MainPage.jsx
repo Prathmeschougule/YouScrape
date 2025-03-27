@@ -31,20 +31,20 @@ function MainPage({ setVideoDetails }) {
 
   return (
     <>
-      {/* <Navbar /> */}
+    
       <div className="mainPage">
         <div>
-          <h1 className="Heading">YouTube Video Data Scraper</h1>
+          <h1 className="Heading text-gray-800">YouTube Video Data Scraper</h1>
 
 
-          <p className=" descri text-white">
+          <p className=" descri text-gray-700">
             🔍 Enter a YouTube video link and get all the details in seconds!
           </p>
 
-      <div className="base">
+      <div className="base bg-red-600 ">
          
               <input
-                className=" inputBox border border-white"
+                className=" inputBox border bg-white border-white"
                 type="text"
                 id="videoLink"
                 value={videoLink}
@@ -52,7 +52,7 @@ function MainPage({ setVideoDetails }) {
                 onChange={(e) => setVideoLink(e.target.value)}
                 required
               />
-              <button className="btn text-white" type="submit" onClick={handleSubmit}>
+              <button className="btn text-white bg-white" type="submit" onClick={handleSubmit}>
                 Submit
               </button>
 
