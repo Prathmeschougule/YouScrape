@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-YtscrapperApplication<ytscrapper>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.youtube.ytscrapper.YtscrapperApplication",
+            "projectName": "ytscrapper",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

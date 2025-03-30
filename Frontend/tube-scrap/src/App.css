@@ -45,7 +45,7 @@
     /* border: solid #F52F2F; */
     border-radius: 30px 30px 30px 30px; /* Top-left, Top-right, Bottom-right, Bottom-left */
 }
-.base{
+/* .base{
 
     margin-top: 25px;
     max-width:670px ;
@@ -54,37 +54,29 @@
 
     margin-left: 390px;
     
-}
+} */
 .descri{
  margin-bottom: 4px;
 }
 .navbar{
     width: 100%;
 }
-.mainPage{
-    margin-top: 200px;
-  
-}
+
 
 .thumnail{
 
     text-align: left;
 }
 
-.box1{
+/* .box1{
     width: 50%;
-}
+} */
 
 .final{
     
 }
 
-* {
-    /* margin: 0;
-    padding: 0; */
-    /* box-sizing: border-box; */
-   
-}
+
 .finalcolor{
     width: 100%;
     height:100vh;

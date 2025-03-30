@@ -16,7 +16,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.youtube.ytscrapper.services.YtService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = "https://youscrape.netlify.app/")
 public class Ytcontroller {
 
     @Autowired
